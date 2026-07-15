@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Product Search Button support and privacy information.">
+  <title>Product Search Button</title>
+  <style>
+    :root { color-scheme: light; --ink: #172033; --muted: #596579; --line: #dce3ec; --accent: #2563eb; --wash: #f5f8fc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--wash); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(720px, calc(100% - 32px)); margin: 0 auto; padding: 56px 0; }
+    section { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: clamp(24px, 6vw, 48px); }
+    h1 { margin: 0 0 12px; line-height: 1.15; letter-spacing: -.03em; font-size: clamp(2rem, 6vw, 3.2rem); }
+    p { color: var(--muted); }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    a { color: var(--accent); font-weight: 700; }
+    nav a { border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Product Search Button</h1>
+      <p>Support and privacy information for the browser extension that helps you search products across the services you choose.</p>
+      <nav aria-label="Product Search Button resources">
+        <a href="privacy/">Privacy Policy</a>
+        <a href="support/">Support</a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
